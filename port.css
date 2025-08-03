@@ -1,0 +1,205 @@
+body{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+  background: black;
+  color: white;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 40px;
+  background: rgba(0,0,22,.7);
+  color: white;
+  list-style: none;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.logo{
+  width: auto;
+  height: 100%;
+  scale: .7;
+  margin-left: -20px; 
+}
+
+.tab{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100%;
+  background: 0;
+  scale: .7;
+  border-bottom: 5px solid white;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.tab:hover{
+  border-bottom: 5px solid cyan;
+  transition: .3s;
+}
+
+.hero{
+  position: relative;
+  top: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 600px;
+  background-image: url("/storage/emulated/0/Download/abstract-portrait-walpaper-background-vibrant-free-vector.jpg");
+  margin-top: -70px;
+  color: white;
+  text-align: center;
+}
+
+.pros{
+  position: absolute;
+  top: -80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  height: 270px;
+  background: 0;
+  border-radius: 0px;
+  margin-top: -70px;
+}
+
+.pro{
+  position: relative;
+  border-radius: inherit;
+}
+
+.pics{
+  position: absolute;
+  top: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 320px;
+  height: 300px;
+  background: 0;
+  border-radius: 10px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.post-head{
+  position: relative;
+  top: -100px;
+  z-index: 3;
+  border-bottom: 3px solid black; 
+  padding-bottom: 5px;
+}
+
+.pic{
+  margin-right: 10px; 
+}
+
+.hero2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 95%;
+  height: 430px;
+  background-image: url('/storage/emulated/0/bluetooth/IMG-20250726-WA0040~2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  transform: translateX(-700px);
+  transition: 1s;
+  margin-top: 420px;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+#bout{
+  padding: 10px;
+  border: 2px solid black;
+  background: black;
+  margin-top: -67px;
+  border-radius: 10px;
+}
+
+.dim{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,.6);
+  z-index: -1;
+}
+
+.hero3{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  margin-top: 130px;
+  margin-left: -500%;
+  transition: 1s;
+}
+
+.qrc{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.wprev{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.about{
+  transform: translateY(0);
+}
+
+.con{
+  margin-left: 0;
+}
+
+img{
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
+footer{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  background: rgba(0,0,77,.3);
+  color: white;
+  letter-spacing: 1.5px;
+  margin-top: 600px;
+}
